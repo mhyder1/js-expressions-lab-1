@@ -17,7 +17,6 @@ describe('index.js', function () {
     // Calculate the total temperatures
     const temperature_in_fahrenheit = allTempsInFahrenheit.reduce((sum, temp) => sum + temp, 0);
     const temperature_in_celsius = allTempsInCelsius.reduce((sum, temp) => sum + temp, 0);
-    
     // Calculate mean of temperatures
     const meanCelsius = temperature_in_celsius / allTempsInCelsius.length;
     const meanFahrenheit = temperature_in_fahrenheit / allTempsInFahrenheit.length;
